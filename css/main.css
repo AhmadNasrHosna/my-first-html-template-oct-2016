@@ -1,0 +1,366 @@
+/* Start Main Rules */
+
+.container{width:900px;margin:auto}
+
+.clearfix{clear:both}
+
+/* End Main Rules */
+
+/* Start Header */
+
+.slider{background:#EEE;background-image:url('../images/slider.jpg');background-size:cover;height:400px}
+
+.view{text-align:center;padding-top:110px;color:#fff}
+
+.view .head{
+    background: rgba(255, 255, 255, .1);
+    margin:auto;
+    width:500px;
+    padding:30px 70px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+.view h2{
+    font-size:40px;
+    color:#fff;
+    width:500px;
+    margin:auto;
+    padding:2px 0 2px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+
+}
+
+.view button{
+    background:none;
+    border:2px solid #fff;
+    color:#fff;
+    font-weight:bold;
+    padding:5px 20px;
+    margin-top:20px
+}
+
+.view button a{color:#fff;text-decoration:none;}
+
+.view button a:hover{text-decoration:underline}
+
+.navbar{background:#f3f3f3;color:#333;overflow:hidden;}
+
+.navbar h2{color:#333;float:left;}
+
+.navbar h2 span{color:#0066CC}
+
+.navbar ul{list-style:none;overflow:hidden;margin:0;float:right}
+
+.navbar ul li{float:left;margin-left:5px;padding:24px 7px;}
+
+.navbar ul a li{color:#777;text-decoration:none}
+
+.navbar ul a.active li{color:#0066CC;border-bottom:2px solid #0066CC}
+.navbar ul a li:hover{border-bottom:2px solid #0066CC;color:#0066CC}
+
+/* End Header */
+
+/* Start Features */
+
+.features {overflow:hidden;padding:50px 0 50px}
+
+.features .feat{float:left;width:30.333333%;height:150px;margin-right:1%}
+
+.features .feat h2{color:#777;}
+.features .feat p{color:#777; line-height:1.6; font-size:13px;padding-right: 5px}
+
+/* End Features */
+
+/* Start About Me */
+
+.about-me{background:#F2F2F2;overflow:hidden}
+
+.about-me .img{float:left;width:40%;}
+
+.about-me .img img{width:100%}
+
+.about-me .info{float:left;width:60%;margin-top:12px}
+
+.about-me .info h2{margin-left:30px;color:#777}
+
+.about-me .info h2 span {color:#0066CC}
+
+.about-me .info > p{margin-left:30px;margin-bottom:20px;font-size:14px}
+
+.about-me .info > p:last-of-type{margin-bottom:20px}
+
+.about-me .info  p{color:#777;line-height:1.6;font-size:13px;margin-top:4px} 
+
+.about-me .info .hobbies{overflow:hidden; margin-left:30px}
+
+.about-me .info .hobbies .content{float:left;width:48%;overflow:hidden;margin-right:2%;}
+
+.about-me .info .hobbies .content .image{float:left;width:20%}
+
+.about-me .info .hobbies .content .image img{width:30px;max-width:100%; margin-top:20px}
+
+.about-me .info .hobbies .content .text{float:left;width:75%;margin-right:5%}
+
+.about-me .info .hobbies .content h3{margin-bottom:5px; color:#777; font-size:16px;}
+
+
+/* Start About Me */
+
+/* Start My Skills */
+
+.my-skills{overflow:hidden;padding:30px 0 50px}
+
+.my-skills .skills h2{color:#777}
+
+.my-skills .skills h2 span {color:#0066CC}
+
+.my-skills .skills > p{margin-bottom:20px}
+
+.my-skills .skills  p:last-of-type{margin-bottom:20px}
+
+.my-skills .skills  p{color:#777;line-height:1.6;font-size:13px;margin-top:4px}
+
+.my-skills .skills button{
+    background:none;
+    border:2px solid #0066CC;
+    color:0066CC;
+    font-weight:bold;
+    padding:5px 20px;
+}
+
+.my-skills .skills button a{color:#0066CC;text-decoration:none}
+
+.my-skills .skills button a:hover{text-decoration:underline}
+
+.my-skills .skills,
+.my-skills .progress{float:left;width:50%}
+
+.my-skills .progress .content{margin-left:30px;}
+
+.my-skills .progress .content h3{margin-bottom:7px; color:#777; font-size:16px}
+
+.my-skills .progress .content div{height:25px;background-color:#F3F3F3}
+
+.my-skills .progress .content div span{
+    display:block;
+    font-weight:bold;
+    color:#fff;
+    line-height:25px;
+    height:25px;
+    text-align:right;
+    background-color:#0066CC
+}
+
+/* End My Skills */
+
+/* Start My Resume */
+
+.resume{background:#F2F2F2;padding:30px 0 50px;text-align:center}
+
+.resume h2{color:#777}
+
+.resume h2 span {color:#0066CC}
+
+.resume  p{color:#777;line-height:1.6;font-size:13px;margin:4px 0 20px}
+
+.resume button{background:none;border:2px solid #0066CC;color:0066CC;font-weight:bold;padding:5px 20px;}
+
+.resume button a{color:#0066CC;text-decoration:none}
+
+.resume button a:hover{text-decoration:underline}
+
+/* End My Resume */
+
+/* Start My Education */
+
+.my-education{overflow:hidden;padding:30px 0 20px}
+
+.my-education .main,
+.my-education .exp{float:left;width:50%}
+
+.my-education .main h2{color:#777}
+
+.my-education .main h2 span {color:#0066CC}
+
+.my-education .main > p{margin-bottom:20px}
+
+.my-education .main  p:last-of-type{margin-bottom:20px}
+
+.my-education .main p{color:#777;line-height:1.6;font-size:13px;margin-top:4px}
+
+.my-education .exp .item{
+    margin:20px 0 30px 30px;
+    background-color:#F1F1F1;
+    padding:20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.my-education .exp .item h3{margin-bottom:8px;color:#777; font-size:16px}
+
+.my-education .exp .item p{color:#777;line-height:1.6;font-size:13px; margin-top:10px}
+
+.my-education .exp .item span{display:block;margin-bottom:8px}
+
+.my-education .exp .item span:first-of-type{font-size:14px;color:#999}
+
+.my-education .exp .item span:last-of-type{
+    color:#fff;
+    font-weight:bold;
+    font-size:14px;
+    background-color:#0066CC;
+    display:inline-block;
+    padding:5px 10px
+    }
+
+.my-education hr{margin:13px 0;background-color:#ddd;border:0;height:1px}
+
+/* End My Education */
+
+/* Start My Testemonials */
+
+.testemonials{background-color:#F2f2f2;padding:50px 0 30px;text-align:center}
+
+.testemonials blockquote {
+    background-color:#fff;
+    padding: 20px 30px;
+    color:#777;
+    line-height:1.6;
+    font-size:14px;
+    margin:4px 0 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    }
+
+.testemonials h3{color:#777; font-size:16px;}
+
+.testemonials ul{list-style:none; padding-left:0; text-align:center}
+
+.testemonials ul li{width:10px;height:10px;border: 1px solid #0066CC;display:inline-block;cursor: pointer}
+    
+.testemonials ul li.active,
+.testemonials ul li:hover{ background-color:#0066CC}
+
+/* End My Testemonials */
+
+
+/* Start Portfolio */
+
+.portfolio{overflow:hidden;text-align:center;padding:30px 0 70px}
+
+.portfolio h2{color:#777}
+
+.portfolio h2 span {color:#0066CC}
+
+.portfolio p{color:#777;line-height:1.6;font-size:13px; margin:10px 0 30px}
+
+
+.portfolio .our-work img{
+    width:30.333333%;
+    float:left;
+    margin:1%;
+    padding:2px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+/* Start Portfolio */
+
+/* Start Contact Me */
+
+.contact{
+    background:#EEE;
+    background-image:linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)),url('../images/slider.jpg');
+    background-size:cover;
+    color:#fff;
+    padding:30px 0 40px;
+    overflow:hidden
+}
+
+.contact .info{float:left;width:50%}
+
+.contact .info h2{
+    padding:5px 20px;
+    margin-bottom:15px;
+    color:#777;
+    background-color:#fff;
+    display: inline-block;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius:7px;
+    }
+
+.contact .info p{color:#666;line-height:1.6;font-size:13px;margin-bottom:20px}
+
+.contact .info span{color:#666;line-height:1.6;font-size:13px;margin-bottom:20px}
+
+.contact .form{
+    float:left;
+    width:44%;
+    color:#666;
+    margin-left:6%;
+    margin-top:30px;
+    margin-bottom:10px;
+    font-size:14px
+}
+
+input[type="text"]{
+    float:left;
+    width:47%;
+    margin-right:3%;
+    margin-bottom:15px;
+    border:0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius:5px;
+    padding:10px 15px;
+    color:#333;
+}
+
+textarea{
+    width:97%;
+    height:150px;
+    border:0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius:5px;
+    padding:10px 15px;
+    margin-bottom:15px;
+    color:#888;
+}
+
+input[type="submit"]{
+    border:0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius:5px;
+    padding:10px 15px;
+    background: rgba(51, 51, 51, .1);
+    color:#777;
+    width:97%;
+}
+/* Start Contact Me */
+
+/* Start Footer */
+
+.footer{
+    overflow:hidden;
+    background-color:#A1A1A1;
+    padding:17px 0 15px;
+    text-align:center
+}
+
+.footer span{color:#D3D3D3;font-size:14px}
+
+.footer .icons img{
+    opacity:0.7;
+    margin-left:5px;
+    margin-top:10px;
+    width:14px
+}
+
+/* End   Footer */
